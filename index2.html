@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      h1 {
+        color: blue;
+      }
+      [data] {
+        color: rebeccapurple;
+      }
+      li {
+        color: royalblue;
+      }
+      [data="medicin"] {
+        color: aqua;
+      }
+      .man + .women {
+        color: greenyellow;
+      }
+      /* general sibiling selector  */
+      .man ~ .women {
+        color: rgb(140, 218, 218);
+      }
+      li:nth-child(2n + 1) {
+        color: chartreuse;
+      }
+      li:last-child {
+        color: red;
+      }
+      li:nth-child(2n) {
+        color: cadetblue;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Anubhav Kumar</h1>
+    <p data="medicine">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis
+      laudantium voluptatibus nostrum praesentium optio itaque odio soluta porro
+      molestiae reprehenderit, cupiditate rerum cumque esse quasi ea iusto vel,
+      mollitia id.
+    </p>
+    <h2>Projects</h2>
+    <ol>
+      <li>Automatic Shopping Cart</li>
+      <li>12V DC Adaptor</li>
+      <li>Blogging Website</li>
+      <li>Created Motion Graphic Wedding Invitation</li>
+    </ol>
+    <p data="medicin">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates in
+      tempora quia, dolores debitis aut asperiores suscipit odio vero at ad
+      quaerat ipsum nostrum libero et temporibus? Numquam, architecto nemo!
+    </p>
+    <div class="man">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas vitae
+        quo dolorem, ratione aspernatur ipsam cumque officia laborum quos
+        dolores, tempora illo laudantium quam dolorum nesciunt repudiandae
+        corrupti maxime velit!
+      </p>
+    </div>
+    <div class="women">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur
+        sint suscipit, non optio minus recusandae sed velit iste aspernatur
+        nemo? Voluptatem molestias numquam magnam architecto impedit?
+        Perferendis odio ut eum?
+      </p>
+    </div>
+    <div class="women">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur
+        sint suscipit, non optio minus recusandae sed velit iste aspernatur
+        nemo? Voluptatem molestias numquam magnam architecto impedit?
+        Perferendis odio ut eum?
+      </p>
+    </div>
+    <h2>Ten Random Movies</h2>
+    <ol>
+      <li>The Matrix</li>
+      <li>The Shougan</li>
+      <li>The Avangers</li>
+      <li>The Billboard</li>
+      <li>The Man Who Know Infinity</li>
+      <li>The Boy Who Harness The Wind</li>
+      <li>Tenent</li>
+      <li>Dune</li>
+      <li>D-war</li>
+      <li>Lust-story</li>
+    </ol>
+  </body>
+</html>
